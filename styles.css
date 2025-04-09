@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #ffffff; /* bgc #fff */
   margin: 40px;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .overlay-text p {
-  margin-top: 150px;
+  margin-top: 153px; /* mt */
   font-size: 1.2em;
 }
 
