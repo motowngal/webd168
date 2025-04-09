@@ -3,7 +3,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #fffdf6;
+  background-color: #fffdf6; /* bgc */
   color: #333;
 }
 header {
@@ -14,7 +14,7 @@ header {
 main {
   padding: 15px;
   max-width: 1100px;
-  margin: auto;
+  margin: auto; /* m:a */
   background-color: white;
   align-content: center;
 }
