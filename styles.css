@@ -6,18 +6,21 @@ body {
 }
 
 .hero {
+  display: flex;
+  justify-content: center; /* Centers child horizontally */
+  align-items: center; /* Optional: centers child vertically */
+  height: 500px; /* or whatever size you want */
   position: relative;
-  width: 100%;
-  height: 300px; /* Adjust the height as needed */
   overflow: hidden;
 }
 
 .hero-image {
   width: 100%;
-  height: 90%;
-  object-fit: contain; /* Cover the entire area */
+  height: 100%;
+  object-fit: cover; /* Cover the entire area */
   object-position: center;
-  padding: 30px;
+  display: block;
+  margin-top: 50px;
 }
 
 .hero-title {
@@ -32,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 65px 30px 0px 80px;
+  padding: 70px 30px 22px 80px;
   box-sizing: border-box;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
@@ -51,6 +54,8 @@ body {
 .container {
   text-align: center;
   padding-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .card {
@@ -70,7 +75,6 @@ body {
 
 .overlay-text {
   position: absolute;
-  top: 60px;
   left: 0;
   right: 0;
   color: white;
@@ -78,7 +82,7 @@ body {
 }
 
 .overlay-text h1 {
-  margin: 0;
+  margin: 25px auto;
   font-size: 2.5em;
 }
 
